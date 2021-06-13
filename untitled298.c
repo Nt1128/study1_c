@@ -9,12 +9,12 @@ int main()
                     {{20, 22, 30, 35}, {12, 19, 35, 22}, {12, 15, 9, 25}}};
     int i, j, k;
 
-    for (i=0; i<L; i++)
+    for (i=0; i<L; i++).           // 면 개수만큼 반복
     {
         printf("\n %d면 \n\n", i+1);
-        for (j=0; j<M; j++)
+        for (j=0; j<M; j++).       // 행 개수만큼 반복
         {
-            for (k=0; k<N; k++)
+            for (k=0; k<N; k++).   // 열 개수만큼 반복
                 printf("%3d ", n[i][j][k]);
             printf("\n");
         }
