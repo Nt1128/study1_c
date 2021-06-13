@@ -1,7 +1,7 @@
 #include <stdio.h>
-#define L 2
-#define M 3
-#define N 4
+#define L 2   // 면 개수
+#define M 3   // 행 개수
+#define N 4   // 열 개수
 
 int main()
 {
